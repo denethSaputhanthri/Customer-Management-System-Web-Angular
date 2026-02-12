@@ -1,0 +1,12 @@
+<H1>Hello</H1>
+<div class="class">
+
+    <input type="text" placeholder="name" [(ngModel)]="customers.name">
+    <input type="text" placeholder="email" [(ngModel)]="customers.email">
+    <input type="text" placeholder="phone"[(ngModel)]="customers.phone">
+
+    <button (click)="addCustomer()">Add</button>
+
+    <P>{{customers.name}} - {{customers.email}} - {{customers.phone}}</P>
+
+</div>
