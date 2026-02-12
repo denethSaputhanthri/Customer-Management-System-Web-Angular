@@ -9,4 +9,12 @@
 
     <P>{{customers.name}} - {{customers.email}} - {{customers.phone}}</P>
 
+    <table *ngFor="let customerObj of customer" border="2">
+        <tr>
+            <td>{{customerObj.name}}</td>
+            <td>{{customerObj.email}}</td>
+            <td>{{customerObj.phone}}</td>
+        </tr>
+    </table>
+
 </div>
