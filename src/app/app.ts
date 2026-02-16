@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule,Dashboard,RouterOutlet, Home],
+  imports: [FormsModule,RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
